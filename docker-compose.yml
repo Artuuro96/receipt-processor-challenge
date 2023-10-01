@@ -3,5 +3,7 @@ services:
   app:
     container_name: app
     build: ./
+    environment:
+      - PORT=8080 # Configura el puerto deseado aquí
     ports:
-      - 3000:3000
+      - "8080:8080"

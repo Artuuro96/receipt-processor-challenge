@@ -2,7 +2,7 @@ import { ReceiptDTO } from "../dtos/receipt-dto";
 import { v4 as uuidV4 } from "uuid";
 import { ReceiptResponseDTO } from "../dtos/receipt-response.dto";
 import { Request, Response } from "express";
-import { Util } from "../util/utils";
+import { Util } from "../util/util";
 
 const receipts: ReceiptDTO[] = [];
 const MULTIPLE = 0.25;
